@@ -1,0 +1,16 @@
+{
+  "name": "lead-gen-free",
+  "version": "1.0.0",
+  "description": "GMP lead discovery — ClinicalTrials, NIH Reporter, PubMed",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dot": "^1.1.3",
+    "dotenv": "^17.4.0",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
