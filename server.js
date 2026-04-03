@@ -491,8 +491,8 @@ ${leadSummaries}`;
   }
 });
 
-
-app.listen(3000, () => console.log('\n✓ Lead gen app running at http://localhost:3000\n'));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`\n✓ Running on port ${PORT}\n`));
 
 // ─────────────────────────────────────────────
 // CROSS-SOURCE DEDUPLICATION
